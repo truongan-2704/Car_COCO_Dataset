@@ -1,0 +1,21 @@
+#path: ../coco_dataset
+train: coco_dataset/train/images
+val: coco_dataset/valid/images
+test: coco_dataset/test/images
+
+nc: 4
+
+names:
+  0: bus
+  1: car
+  2: motorcycle
+  3: truck
+
+#names: ['bus', 'car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: vehicle-mscoco
+  project: vehicles-coco
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vehicle-mscoco/vehicles-coco/dataset/2
